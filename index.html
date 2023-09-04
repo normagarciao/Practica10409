@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios HTML</h1>
+    <form acrion="" method="post">
+        <div>
+        <label for="nombre">Nombre:</label> <!--  -->
+        <input type="text" name="nombre" id="nombre">
+        </div> <!-- Caja de texto estructura -->
+
+        <div>
+        <label for="colorFav">Color Favorito:</label>
+        <input type="color" name="colorFav" id="colorFav">
+        </div>
+
+        <div>
+        <label for="fechaNac">Fecha nacimiento</label>
+        <input type="date" name="fechaNac" id="fechaNac">
+        </div>
+
+        <div>
+        <label for="clave">Clave:</label>
+        <input type="password" name="clave" id="clave">
+        </div>
+
+        <div>
+            <label for="semestre">semestre</label>
+            <input type="range" min="1" max="9" name="semestre">
+
+            <div>
+                <label for="comentarios">Comentarios:</label>
+                <textarea name="comentarios" id="=comentarios" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+                <label for="curriculum">Curriculum:</label>
+                <input type="file" name="curriculum" id="curriculum">
+        </div>
+
+        <div>
+            <label for="curso">Curso:</label>
+            <select name="curso" id="curso">
+                <option value="1">Python</option>
+                <option value="2">C#</option>
+                <option value="3">Cobo1</option>
+            </select>
+
+            <div>
+            <label for="curso">Curso:</label>
+            <select name="curso" id="curso" multiple>
+                <option value="1">Python</option>
+                <option value="2">C#</option>
+                <option value="3">Cobo1</option>
+            </select>
+
+            <div>
+            <label for="curso">Curso:</label>
+            <select name="curso" id="curso">
+                <optgroup label="en linea">
+                    <option value="1">Python</option>
+                </optgroup>
+                <optgroup label="presencial">
+                    <option value="2">C#</option>
+                    <option value="3">Cobo1</option>
+                </optgroup>
+            </select>
+            <div>
+
+            <input type="button" value="guardar">
+            <input type="submit" value="enviar">
+            <input type="reset" value="borrar">
+            <button>Enviar</button>
+            <a hrfe="#">Enviar</a>
+
+        </div>
+
+
+
+    </form>
+</body>
+</html>
